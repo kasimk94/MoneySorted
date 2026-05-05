@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /admin
 Disallow: /api/
-Sitemap: https://statementflow.app/sitemap.xml
-Host: https://statementflow.app
+Disallow: /onboarding
+
+Sitemap: https://www.getmoneysorted.co.uk/sitemap.xml

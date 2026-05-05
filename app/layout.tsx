@@ -21,9 +21,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "MoneySorted — Understand Your Money",
+  title: "MoneySorted — Free UK Bank Statement Analyser",
   description:
-    "Upload your PDF bank statement and get instant clarity on where your money went. Works with Barclays, HSBC, Lloyds, NatWest, Monzo, Starling & more. No bank login, no account required.",
+    "Upload your PDF bank statement and instantly see where your money went. Works with Barclays, HSBC, Lloyds, NatWest, Monzo, Starling & more. Free, private, no bank login required.",
   keywords: [
     "bank statement converter",
     "bank statement analyser",
@@ -54,32 +54,32 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://statementflow.app",
+    canonical: "https://www.getmoneysorted.co.uk",
   },
   openGraph: {
     type: "website",
-    url: "https://statementflow.app",
-    title: "MoneySorted — Understand Your Money",
+    url: "https://www.getmoneysorted.co.uk",
+    title: "MoneySorted — Free UK Bank Statement Analyser",
     description:
-      "Upload your PDF bank statement and get instant clarity on your spending. Works with all major UK banks. Free, private, no bank login.",
+      "Upload your PDF bank statement and instantly see where your money went. Works with all major UK banks. Free, private, no bank login.",
     siteName: "MoneySorted",
     locale: "en_GB",
     images: [
       {
-        url: "https://statementflow.app/og-image.svg",
+        url: "https://www.getmoneysorted.co.uk/og-image.svg",
         width: 1200,
         height: 630,
-        alt: "MoneySorted — Understand Your Money",
+        alt: "MoneySorted — Free UK Bank Statement Analyser",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     site: "@moneysorted",
-    title: "MoneySorted — Understand Your Money",
+    title: "MoneySorted — Free UK Bank Statement Analyser",
     description:
-      "Upload your PDF bank statement and get instant clarity on where your money went. Free, secure, works with all UK banks.",
-    images: ["https://statementflow.app/og-image.svg"],
+      "Upload your PDF bank statement and instantly see where your money went. Free, secure, works with all UK banks.",
+    images: ["https://www.getmoneysorted.co.uk/og-image.svg"],
   },
   other: {
     "geo.region": "GB",
@@ -95,7 +95,7 @@ const webAppSchema = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "MoneySorted",
-  url: "https://statementflow.app",
+  url: "https://www.getmoneysorted.co.uk",
   description:
     "Upload your PDF bank statement and get instant clarity on where your money went. Works with all major UK banks.",
   applicationCategory: "FinanceApplication",
@@ -131,7 +131,7 @@ const webAppSchema = {
     "CSV export",
     "Supports Barclays, HSBC, Lloyds, NatWest, Monzo, Starling, Halifax, Santander",
   ],
-  screenshot: "https://statementflow.app/og-image.svg",
+  screenshot: "https://www.getmoneysorted.co.uk/og-image.svg",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.8",
@@ -143,8 +143,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "MoneySorted",
-  url: "https://statementflow.app",
-  logo: "https://statementflow.app/og-image.svg",
+  url: "https://www.getmoneysorted.co.uk",
+  logo: "https://www.getmoneysorted.co.uk/og-image.svg",
   description: "MoneySorted helps you understand your money by analysing your bank statements instantly.",
   areaServed: "GB",
   foundingDate: "2026",
