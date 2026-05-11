@@ -172,7 +172,7 @@ function RightPanel() {
           Everything in one place
         </h2>
         <p style={{ color: T.textSec, fontSize: "0.9rem", margin: "0 0 40px 0" }}>
-          Join thousands of UK users who trust MoneySorted
+          Join UK users who trust MoneySorted
         </p>
 
         {features.map((f) => (
@@ -196,17 +196,6 @@ function RightPanel() {
           </div>
         ))}
 
-        <div style={{ height: 1, background: "rgba(201,168,76,0.1)", margin: "32px 0" }} />
-
-        <p style={{
-          color: T.textSec, fontSize: "0.875rem", fontStyle: "italic",
-          lineHeight: 1.6, margin: "0 0 8px 0",
-        }}>
-          &ldquo;Finally a tool that just works. My Barclays statement was processed in seconds.&rdquo;
-        </p>
-        <p style={{ color: T.textPri, fontSize: "0.8rem", fontWeight: 500, margin: 0 }}>
-          — Sarah M., London
-        </p>
       </div>
     </div>
   );
