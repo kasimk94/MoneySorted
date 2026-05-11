@@ -86,6 +86,7 @@ const NAVBAR_CSS = `
       right: 12px !important;
       transform: none !important;
       width: auto !important;
+      justify-content: space-between !important;
     }
   }
 `;
