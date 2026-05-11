@@ -1,4 +1,13 @@
+import { getAllPosts } from '@/lib/blogPosts';
+
 export default function sitemap() {
+  const blogEntries = getAllPosts().map(post => ({
+    url: `https://www.getmoneysorted.co.uk/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
   return [
     {
       url: 'https://www.getmoneysorted.co.uk',
@@ -60,5 +69,12 @@ export default function sitemap() {
       changeFrequency: 'monthly',
       priority: 0.4,
     },
+    {
+      url: 'https://www.getmoneysorted.co.uk/blog',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    ...blogEntries,
   ]
 }
