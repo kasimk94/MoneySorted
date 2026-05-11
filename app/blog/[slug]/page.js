@@ -8,7 +8,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const post = getPostBySlug(params.slug);
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) return { title: 'Not Found' };
   return {
     title: `${post.title} | MoneySorted`,
@@ -28,8 +29,9 @@ function formatDate(dateStr) {
   return new Date(dateStr).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
-export default function BlogPostPage({ params }) {
-  const post = getPostBySlug(params.slug);
+export default async function BlogPostPage({ params }) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) notFound();
 
   return (
@@ -101,9 +103,7 @@ export default function BlogPostPage({ params }) {
       <main style={{ maxWidth: 720, margin: '0 auto', padding: '120px 24px 80px' }}>
 
         {/* Back link */}
-        <Link href="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: 6, color: '#8A9BB5', fontSize: '0.875rem', textDecoration: 'none', marginBottom: 40, transition: 'color 0.15s ease' }}
-          onMouseEnter={undefined}
-        >
+        <Link href="/blog" style={{ display: 'inline-flex', alignItems: 'center', gap: 6, color: '#8A9BB5', fontSize: '0.875rem', textDecoration: 'none', marginBottom: 40 }}>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="15 18 9 12 15 6"/>
           </svg>
