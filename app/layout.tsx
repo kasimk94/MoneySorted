@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import AuthSessionProvider from "@/components/SessionProvider";
+import Footer from "@/components/Footer";
 import Script from "next/script";
 
 const inter = Inter({
@@ -248,6 +249,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         <AuthSessionProvider>{children}</AuthSessionProvider>
+        <Footer />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-HL1LT0C0J3"
           strategy="afterInteractive"
