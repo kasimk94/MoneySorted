@@ -45,7 +45,9 @@
       "Bash(git config *)",
       "Bash(git revert *)",
       "Bash(curl -s -X POST http://localhost:3000/api/admin/set-tier -H 'Content-Type: application/json' -d '{\"email\":\"kasimkhalid63@gmail.com\",\"tier\":\"BUSINESS\"}')",
-      "Bash(powershell *)"
+      "Bash(powershell *)",
+      "Bash(git rm *)",
+      "Bash(railway logs *)"
     ]
   }
 }

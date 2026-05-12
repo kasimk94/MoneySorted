@@ -86,7 +86,7 @@ export default function PrivacyPage() {
         <div className="legal-info-box">
           <p style={{ color: '#A8B8CC', fontSize: '0.875rem', lineHeight: 1.7 }}>
             <strong>Data Controller:</strong> MoneySorted (getmoneysorted.co.uk)<br />
-            <strong>Contact:</strong> <a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a><br />
+            <strong>Contact:</strong> <a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a><br />
             <strong>Jurisdiction:</strong> England and Wales, United Kingdom
           </p>
         </div>
@@ -161,7 +161,7 @@ export default function PrivacyPage() {
             <li><strong>Right to object</strong> — object to processing based on legitimate interests</li>
             <li><strong>Right to restrict processing</strong> — request we limit how we use your data</li>
           </ul>
-          <p>To exercise any of these rights, contact us at <a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a>. We will respond within 30 days. You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.</p>
+          <p>To exercise any of these rights, contact us at <a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a>. We will respond within 30 days. You also have the right to lodge a complaint with the Information Commissioner's Office (ICO) at <a href="https://ico.org.uk" target="_blank" rel="noopener noreferrer">ico.org.uk</a>.</p>
 
           <h2>8. Cookies</h2>
           <p>MoneySorted uses the following cookies:</p>
@@ -179,7 +179,7 @@ export default function PrivacyPage() {
 
           <h2>11. Contact</h2>
           <p>For any privacy-related questions or to exercise your data rights, contact us at:</p>
-          <p><a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a></p>
+          <p><a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a></p>
 
         </article>
 

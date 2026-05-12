@@ -86,7 +86,7 @@ export default function TermsPage() {
         <div className="legal-info-box">
           <p style={{ color: '#A8B8CC', fontSize: '0.875rem', lineHeight: 1.7 }}>
             <strong>Service Provider:</strong> MoneySorted (getmoneysorted.co.uk)<br />
-            <strong>Contact:</strong> <a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a><br />
+            <strong>Contact:</strong> <a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a><br />
             <strong>Governing Law:</strong> England and Wales, United Kingdom
           </p>
         </div>
@@ -114,7 +114,7 @@ export default function TermsPage() {
           <ul>
             <li>Provide accurate and complete information when registering</li>
             <li>Keep your account credentials confidential and not share them with others</li>
-            <li>Notify us immediately at <a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a> if you suspect unauthorised access to your account</li>
+            <li>Notify us immediately at <a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a> if you suspect unauthorised access to your account</li>
             <li>Be responsible for all activity that occurs under your account</li>
           </ul>
           <p>We reserve the right to suspend or terminate accounts that violate these Terms or that we reasonably believe are being used fraudulently.</p>
@@ -140,7 +140,7 @@ export default function TermsPage() {
           <p>You may cancel your subscription at any time from your account settings. Cancellation takes effect at the end of the current billing period — you will retain access to paid features until that date. We do not issue prorated refunds for partial months.</p>
 
           <h3>Refunds</h3>
-          <p>We offer a 7-day refund policy for first-time subscribers. If you are not satisfied with the Service within 7 days of your first payment, contact us at <a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a> for a full refund. Refunds after this period are at our discretion.</p>
+          <p>We offer a 7-day refund policy for first-time subscribers. If you are not satisfied with the Service within 7 days of your first payment, contact us at <a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a> for a full refund. Refunds after this period are at our discretion.</p>
 
           <h3>Price Changes</h3>
           <p>We reserve the right to change subscription prices. We will give at least 30 days' notice of any price increase. Continued use of the Service after a price change constitutes acceptance of the new pricing.</p>
@@ -181,11 +181,11 @@ export default function TermsPage() {
 
           <h2>13. Governing Law and Disputes</h2>
           <p>These Terms are governed by the law of England and Wales. Any dispute arising from these Terms or your use of the Service shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
-          <p>Before initiating formal legal proceedings, we encourage you to contact us at <a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a> so we can attempt to resolve the matter informally.</p>
+          <p>Before initiating formal legal proceedings, we encourage you to contact us at <a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a> so we can attempt to resolve the matter informally.</p>
 
           <h2>14. Contact</h2>
           <p>For any questions about these Terms, contact us at:</p>
-          <p><a href="mailto:kas_94@hotmail.co.uk">kas_94@hotmail.co.uk</a></p>
+          <p><a href="mailto:hello@getmoneysorted.co.uk">hello@getmoneysorted.co.uk</a></p>
 
         </article>
 
