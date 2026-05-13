@@ -364,24 +364,24 @@ export default function Home() {
           {/* Headline */}
           <h1 className="animate-fade-up-delay hero-headline" style={{
             fontSize: "clamp(2.8rem, 5.5vw, 4.8rem)", fontWeight: 800,
-            lineHeight: 1.1, color: "#F5F0E8",
+            lineHeight: 1.15, color: "#F5F0E8",
             marginBottom: 28, letterSpacing: "-0.03em",
           }}>
-            Convert Your Bank Statements to Excel,<br />
+            Your Money, Finally Easy to Understand<br />
             <span style={{
-              color: "#F59E0B",
-              filter: "drop-shadow(0 0 40px rgba(245,158,11,0.4))",
+              color: "#C9A84C",
+              filter: "drop-shadow(0 0 40px rgba(201,168,76,0.4))",
             }}>
-              Privately &amp; Securely
+              No Bank Login. No Nonsense.
             </span>
           </h1>
 
           {/* Subheadline */}
           <p className="animate-fade-up-delay-2 hero-subheadline" style={{
             color: "#8A9BB5", fontSize: "1.2rem", lineHeight: 1.7,
-            maxWidth: 560, margin: "0 auto 40px",
+            maxWidth: 580, margin: "0 auto 40px",
           }}>
-            Upload any UK bank statement PDF and get instant spending insights, category breakdowns, and clean Excel exports. No bank login required.
+            Just upload your bank statement and instantly see where every penny went — broken down by category, merchant and month. Private, secure, takes seconds.
           </p>
 
           {/* CTA buttons */}
