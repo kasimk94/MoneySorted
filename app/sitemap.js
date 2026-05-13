@@ -1,11 +1,29 @@
 import { getAllPosts } from '@/lib/blogPosts';
 
+const BANK_SLUGS = [
+  'barclays-bank-statement-analyser',
+  'hsbc-bank-statement-analyser',
+  'monzo-bank-statement-analyser',
+  'starling-bank-statement-analyser',
+  'lloyds-bank-statement-analyser',
+  'natwest-bank-statement-analyser',
+  'santander-bank-statement-analyser',
+  'halifax-bank-statement-analyser',
+];
+
 export default function sitemap() {
   const blogEntries = getAllPosts().map(post => ({
     url: `https://www.getmoneysorted.co.uk/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: 'monthly',
     priority: 0.7,
+  }));
+
+  const bankEntries = BANK_SLUGS.map(slug => ({
+    url: `https://www.getmoneysorted.co.uk/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.8,
   }));
 
   return [
@@ -75,6 +93,7 @@ export default function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.8,
     },
+    ...bankEntries,
     ...blogEntries,
   ]
 }
