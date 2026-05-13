@@ -367,12 +367,12 @@ export default function Home() {
             lineHeight: 1.1, color: "#F5F0E8",
             marginBottom: 28, letterSpacing: "-0.03em",
           }}>
-            Your Money,<br />
+            Convert Your Bank Statements to Excel —<br />
             <span style={{
               color: "#F59E0B",
               filter: "drop-shadow(0 0 40px rgba(245,158,11,0.4))",
             }}>
-              Finally Explained.
+              Privately &amp; Securely
             </span>
           </h1>
 
@@ -381,7 +381,7 @@ export default function Home() {
             color: "#8A9BB5", fontSize: "1.2rem", lineHeight: 1.7,
             maxWidth: 560, margin: "0 auto 40px",
           }}>
-            Upload your PDF. Get instant clarity on where your money went. No bank login. No account required.
+            Upload any UK bank statement PDF and get instant spending insights, category breakdowns, and clean Excel exports. No bank login required.
           </p>
 
           {/* CTA buttons */}
@@ -418,19 +418,18 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Trust bar */}
-          <div className="hero-trust-bar animate-fade-up-delay-3" style={{ padding: "16px 0" }}>
-            {[
-              ["🔒", "No bank connections. Ever."],
-              ["📄", "Upload a file, get your data."],
-              ["🗑️", "Files deleted automatically."],
-              ["🔐", "Your data is never sold."],
-            ].map(([icon, text]) => (
-              <div key={text} style={{ display: "flex", alignItems: "center", gap: 6, color: "#6B7280" }}>
-                <span>{icon}</span>
-                {text}
-              </div>
-            ))}
+          {/* Trust badges */}
+          <div className="animate-fade-up-delay-3" style={{
+            display: "flex", alignItems: "center", justifyContent: "center",
+            flexWrap: "wrap", gap: "6px 4px",
+            fontSize: "0.8rem", color: "#C9A84C", opacity: 0.8,
+            marginBottom: 48,
+          }}>
+            <span>🔒 No bank login required</span>
+            <span style={{ opacity: 0.4, margin: "0 6px" }}>·</span>
+            <span>🇬🇧 UK-based</span>
+            <span style={{ opacity: 0.4, margin: "0 6px" }}>·</span>
+            <span>🗑️ Files processed securely</span>
           </div>
 
           {/* Dashboard mockup preview */}
@@ -836,6 +835,46 @@ export default function Home() {
                 </div>
                 <h3 style={{ fontWeight: 700, fontSize: idx === 0 ? "1.125rem" : "1rem", color: "#F5F0E8", marginBottom: 8 }}>{title}</h3>
                 <p style={{ fontSize: "0.875rem", lineHeight: 1.65, color: "#8A9BB5", margin: 0 }}>{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════
+          TRUST SECTION — Your Data, Your Control
+      ══════════════════════════════════════════════════════════════ */}
+      <section className="hp-section" style={{ background: "#0D1117", scrollMarginTop: "80px" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto" }}>
+          <div className="text-center scroll-animate" style={{ marginBottom: 36 }}>
+            <p style={{ color: "#C9A84C", fontWeight: 700, fontSize: "0.72rem", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 12 }}>Privacy First</p>
+            <h2 style={{ fontSize: "clamp(1.5rem, 3vw, 2.2rem)", fontWeight: 800, color: "#F5F0E8" }}>
+              Your Data, Your Control
+            </h2>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 16 }}>
+            {[
+              { icon: "🏦", text: "No bank login or open banking required — just upload your PDF" },
+              { icon: "🔒", text: "Your files are processed securely and never sold to third parties" },
+              { icon: "🇬🇧", text: "UK-based service, compliant with UK GDPR and Data Protection Act 2018" },
+            ].map(({ icon, text }, idx) => (
+              <div key={idx} className="anim-scale scroll-animate" style={{
+                transitionDelay: `${idx * 0.08}s`,
+                background: "rgba(201,168,76,0.03)",
+                border: "1px solid rgba(201,168,76,0.15)",
+                borderRadius: 14, padding: "22px 24px",
+                display: "flex", alignItems: "flex-start", gap: 16,
+              }}>
+                <div style={{
+                  width: 40, height: 40, flexShrink: 0,
+                  background: "rgba(201,168,76,0.08)",
+                  border: "1px solid rgba(201,168,76,0.2)",
+                  borderRadius: 10, display: "flex", alignItems: "center",
+                  justifyContent: "center", fontSize: "1.25rem",
+                }}>
+                  {icon}
+                </div>
+                <p style={{ fontSize: "0.9rem", lineHeight: 1.65, color: "#8A9BB5", margin: 0 }}>{text}</p>
               </div>
             ))}
           </div>
