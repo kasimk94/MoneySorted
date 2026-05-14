@@ -168,6 +168,7 @@ export default function BankLandingPage({ bank }) {
           background: 'linear-gradient(135deg, #0D1117 0%, #111820 100%)',
           border: '1px solid rgba(201,168,76,0.2)',
           borderRadius: 20, padding: '52px 32px',
+          marginBottom: 40,
         }}>
           <h2 style={{ marginBottom: 12 }}>Ready to understand your spending?</h2>
           <p style={{ maxWidth: 480, margin: '0 auto 32px' }}>
@@ -187,6 +188,14 @@ export default function BankLandingPage({ bank }) {
             {bank.ctaLabel}
           </Link>
         </section>
+
+        {/* ── Pillar page backlink ── */}
+        <p style={{ textAlign: 'center', color: '#4A5568', fontSize: '0.82rem', margin: 0 }}>
+          Looking to convert any UK bank statement?{' '}
+          <Link href="/bank-statement-to-excel" style={{ color: '#8A9BB5', textDecoration: 'underline', textUnderlineOffset: 3 }}>
+            Visit our complete guide →
+          </Link>
+        </p>
 
       </main>
     </div>

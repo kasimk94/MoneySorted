@@ -88,6 +88,12 @@ export default function sitemap() {
       priority: 0.4,
     },
     {
+      url: 'https://www.getmoneysorted.co.uk/bank-statement-to-excel',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
       url: 'https://www.getmoneysorted.co.uk/blog',
       lastModified: new Date(),
       changeFrequency: 'weekly',
