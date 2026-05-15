@@ -282,20 +282,23 @@ function ChartTooltip({ active, payload }) {
   );
 }
 
-// Improved legend: colour dot + name + amount + percentage
+// Legend: colour dot + name + amount + percentage — always below the chart, 2-col grid
 function PieLegend({ data, totalExpenses }) {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 10, marginTop: 20 }}>
+    <div style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+      gap: "8px 16px",
+      width: "100%",
+    }}>
       {data.map((entry) => {
         const pct = totalExpenses > 0 ? ((entry.value / totalExpenses) * 100).toFixed(1) : "0.0";
         return (
-          <div key={entry.name} style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <span style={{ width: 12, height: 12, borderRadius: "50%", flexShrink: 0, backgroundColor: entry.fill }} />
-            <span style={{ fontSize: "12px", color: "#F5F0E8", flex: 1 }}>{entry.name}</span>
-            <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "#8A9BB5", flexShrink: 0 }}>{fmtShort(entry.value)}</span>
-            <span
-              style={{ fontSize: "0.75rem", color: "#fff", fontWeight: 600, backgroundColor: entry.fill, borderRadius: 999, padding: "2px 6px", minWidth: "3rem", textAlign: "center", flexShrink: 0 }}
-            >
+          <div key={entry.name} style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+            <span style={{ width: 10, height: 10, borderRadius: "50%", flexShrink: 0, backgroundColor: entry.fill }} />
+            <span style={{ fontSize: "0.8rem", color: "#F5F0E8", flex: 1, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{entry.name}</span>
+            <span style={{ fontSize: "0.8rem", fontWeight: 700, color: "#8A9BB5", flexShrink: 0, marginLeft: 4 }}>{fmtShort(entry.value)}</span>
+            <span style={{ fontSize: "0.7rem", color: "#fff", fontWeight: 600, backgroundColor: entry.fill, borderRadius: 999, padding: "1px 6px", flexShrink: 0 }}>
               {pct}%
             </span>
           </div>
@@ -1934,11 +1937,11 @@ export default function Dashboard({ transactions, demoMode = false, confidence, 
           {pieData.length === 0 ? (
             <div style={{ height: 192, display: "flex", alignItems: "center", justifyContent: "center", color: "#8A9BB5", fontSize: "0.875rem" }}>No expense data</div>
           ) : (
-            <div className="flex flex-col lg:flex-row gap-4 items-start">
-              {/* Chart */}
-              <div className="sf-chart-wrap w-full lg:w-56 shrink-0" style={{ overflow: "visible", padding: "0 8px" }}>
-                <ResponsiveContainer width="100%" height={240}>
-                  <PieChart margin={{ top: 8, right: 8, bottom: 8, left: 8 }}>
+            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 20 }}>
+              {/* Chart — centred, fixed height */}
+              <div style={{ width: "100%", maxWidth: 260 }}>
+                <ResponsiveContainer width="100%" height={220}>
+                  <PieChart margin={{ top: 4, right: 4, bottom: 4, left: 4 }}>
                     <Pie
                       data={pieData}
                       cx="50%"
@@ -1983,8 +1986,8 @@ export default function Dashboard({ transactions, demoMode = false, confidence, 
                   </PieChart>
                 </ResponsiveContainer>
               </div>
-              {/* Legend */}
-              <div className="flex-1">
+              {/* Legend — full width below chart, wraps into 2 cols */}
+              <div style={{ width: "100%" }}>
                 <PieLegend data={pieData} totalExpenses={spendingOnlyTotal || expenses} />
               </div>
             </div>
