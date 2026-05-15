@@ -520,10 +520,10 @@ export default function Home() {
       ══════════════════════════════════════════════════════════════ */}
       {(() => {
         const TABS = [
-          { label: "Overview",   img: "/screenshots/dashboard-overview.png"     },
-          { label: "Insights",   img: "/screenshots/dashboard-personality.png"  },
-          { label: "Breakdown",  img: "/screenshots/dashboard-breakdown.png"    },
-          { label: "Categories", img: "/screenshots/dashboard-categories.png"   },
+          { label: "Overview",   img: "/screenshots/dashboard-overview.png.webp"    },
+          { label: "Insights",   img: "/screenshots/dashboard-personality.png.png" },
+          { label: "Breakdown",  img: "/screenshots/dashboard-breakdown.png.webp"  },
+          { label: "Categories", img: "/screenshots/dashboard-categories.png"      },
         ];
         return (
           <section className="hp-section" style={{ background: "#080C14" }}>
