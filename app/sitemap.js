@@ -101,5 +101,9 @@ export default function sitemap() {
     },
     ...bankEntries,
     ...blogEntries,
+    { url: 'https://www.getmoneysorted.co.uk/how-to-analyse-a-bank-statement',             lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/how-to-find-subscriptions-in-bank-statement', lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/how-to-track-spending-from-bank-statement',   lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/bank-statement-to-csv-uk',                    lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ]
 }
