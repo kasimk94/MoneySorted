@@ -1,8 +1,8 @@
-name: Generate Weekly Blog Post
+name: Generate Fortnightly Blog Post
 
 on:
   schedule:
-    - cron: '0 9 * * 1'  # Every Monday at 9am UTC
+    - cron: '0 9 1,15 * *'  # 1st and 15th of each month at 9am UTC
   workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 jobs:
@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '22'
 
       - run: npm install
 
