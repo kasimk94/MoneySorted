@@ -106,5 +106,6 @@ export default function sitemap() {
     { url: 'https://www.getmoneysorted.co.uk/how-to-track-spending-from-bank-statement',   lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/bank-statement-to-csv-uk',                    lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/what-does-bank-statement-mean',               lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/hsbc-bank-statement-guide',                   lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ]
 }
