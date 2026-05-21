@@ -107,5 +107,17 @@ export default function sitemap() {
     { url: 'https://www.getmoneysorted.co.uk/bank-statement-to-csv-uk',                    lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/what-does-bank-statement-mean',               lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/hsbc-bank-statement-guide',                   lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/barclays-bank-statement-guide',               lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/lloyds-bank-statement-guide',                 lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/natwest-bank-statement-guide',                lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/monzo-bank-statement-guide',                  lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/starling-bank-statement-guide',               lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/santander-bank-statement-guide',              lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/halifax-bank-statement-guide',                lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/nationwide-bank-statement-guide',             lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/revolut-bank-statement-guide',                lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/chase-bank-statement-guide',                  lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/first-direct-bank-statement-guide',           lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/tsb-bank-statement-guide',                    lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
   ]
 }
