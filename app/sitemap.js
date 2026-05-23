@@ -119,5 +119,6 @@ export default function sitemap() {
     { url: 'https://www.getmoneysorted.co.uk/chase-bank-statement-guide',                  lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/first-direct-bank-statement-guide',           lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/tsb-bank-statement-guide',                    lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: 'https://www.getmoneysorted.co.uk/hsbc-bank-statement',                         lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
   ]
 }

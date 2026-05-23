@@ -20,6 +20,9 @@ export default function Footer() {
           © {new Date().getFullYear()} MoneySorted. All rights reserved.
         </span>
         <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap' }}>
+          <Link href="/hsbc-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            HSBC Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>
