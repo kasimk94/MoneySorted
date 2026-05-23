@@ -489,12 +489,12 @@ export default function Home() {
             lineHeight: 1.15, color: "#F5F0E8",
             marginBottom: 12, letterSpacing: "-0.03em",
           }}>
-            Your Messy Bank Statements,<br />
+            UK Bank Statement Analyser<br />
             <span style={{
               color: "#C9A84C",
               filter: "drop-shadow(0 0 40px rgba(201,168,76,0.4))",
             }}>
-              Made Simple
+              That Actually Makes Sense
             </span>
           </h1>
 
