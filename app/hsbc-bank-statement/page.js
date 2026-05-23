@@ -2,8 +2,8 @@ import Link from 'next/link';
 import BlogNavWrapper from '@/components/BlogNavWrapper';
 
 export const metadata = {
-  title: 'HSBC Bank Statement Analyser | Free PDF to Excel Converter UK',
-  description: 'Upload your HSBC bank statement PDF and get instant spending analysis, transaction breakdown, and Excel export. Free, secure, no login required.',
+  title: 'HSBC Bank Statement Analyser | Free PDF to Excel UK',
+  description: 'Analyse your HSBC bank statement in seconds. Get spending categories, transaction history and Excel export. Free, secure, no HSBC login required. Results instantly.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/hsbc-bank-statement' },
 };
 
