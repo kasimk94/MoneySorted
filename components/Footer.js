@@ -23,6 +23,15 @@ export default function Footer() {
           <Link href="/hsbc-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             HSBC Bank Statement Help
           </Link>
+          <Link href="/barclays-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Barclays Bank Statement Help
+          </Link>
+          <Link href="/monzo-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Monzo Bank Statement Help
+          </Link>
+          <Link href="/starling-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Starling Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>

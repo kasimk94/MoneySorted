@@ -120,5 +120,8 @@ export default function sitemap() {
     { url: 'https://www.getmoneysorted.co.uk/first-direct-bank-statement-guide',           lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/tsb-bank-statement-guide',                    lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: 'https://www.getmoneysorted.co.uk/hsbc-bank-statement',                         lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/barclays-bank-statement',                     lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/monzo-bank-statement',                        lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/starling-bank-statement',                     lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
