@@ -361,7 +361,7 @@ function LoginPageInner() {
               </div>
 
               {/* Password field */}
-              <div style={{ marginBottom: 0 }}>
+              <div style={{ marginBottom: 24 }}>
                 <label style={{
                   color: T.textSec, fontSize: "0.8rem", fontWeight: 500,
                   display: "block", marginBottom: 6,
@@ -407,22 +407,6 @@ function LoginPageInner() {
                   </button>
                 </div>
               </div>
-
-              {/* Forgot password */}
-              <a
-                href="/forgot-password"
-                style={{
-                  color: T.gold,
-                  fontSize: "0.8rem",
-                  textDecoration: "none",
-                  display: "block",
-                  textAlign: "right",
-                  marginTop: 6,
-                  marginBottom: 24,
-                }}
-              >
-                Forgot password?
-              </a>
 
               {/* Sign in button */}
               <button
