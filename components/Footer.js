@@ -59,6 +59,12 @@ export default function Footer() {
           <Link href="/chase-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Chase Bank Statement Help
           </Link>
+          <Link href="/starling-business-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Starling Business Bank Statement Help
+          </Link>
+          <Link href="/monzo-business-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Monzo Business Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>

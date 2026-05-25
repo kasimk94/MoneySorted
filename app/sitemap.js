@@ -132,5 +132,7 @@ export default function sitemap() {
     { url: 'https://www.getmoneysorted.co.uk/revolut-bank-statement',                      lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://www.getmoneysorted.co.uk/first-direct-bank-statement',                 lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://www.getmoneysorted.co.uk/chase-bank-statement',                        lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/starling-business-bank-statement',            lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/monzo-business-bank-statement',               lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
