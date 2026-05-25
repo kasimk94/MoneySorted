@@ -32,6 +32,15 @@ export default function Footer() {
           <Link href="/starling-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Starling Bank Statement Help
           </Link>
+          <Link href="/lloyds-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Lloyds Bank Statement Help
+          </Link>
+          <Link href="/natwest-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            NatWest Bank Statement Help
+          </Link>
+          <Link href="/halifax-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Halifax Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>

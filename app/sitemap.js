@@ -123,5 +123,8 @@ export default function sitemap() {
     { url: 'https://www.getmoneysorted.co.uk/barclays-bank-statement',                     lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://www.getmoneysorted.co.uk/monzo-bank-statement',                        lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
     { url: 'https://www.getmoneysorted.co.uk/starling-bank-statement',                     lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/lloyds-bank-statement',                       lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/natwest-bank-statement',                      lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
+    { url: 'https://www.getmoneysorted.co.uk/halifax-bank-statement',                      lastModified: new Date('2026-05-25'), changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
