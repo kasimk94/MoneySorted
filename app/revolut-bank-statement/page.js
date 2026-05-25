@@ -10,11 +10,11 @@ export const metadata = {
 const FAQ_ITEMS = [
   {
     q: 'How do I download my Revolut bank statement as PDF?',
-    a: 'Open the Revolut app, go to your account, tap Statements, select your date range and choose Download PDF.',
+    a: 'Open the Revolut app, go to your account, tap Statements, select your date range and choose PDF format to download.',
   },
   {
-    q: 'How far back can I get Revolut statements?',
-    a: 'Revolut provides statements from the date you opened your account, all available through the app.',
+    q: 'Does Revolut provide official bank statements?',
+    a: 'Yes, Revolut provides official PDF statements that are accepted by most lenders and landlords for proof of income or address.',
   },
   {
     q: 'Does MoneySorted work with Revolut Business accounts?',
@@ -84,7 +84,7 @@ export default function Page() {
             Revolut Bank Statement Analyser
           </h1>
           <p style={{ color: '#8A9BB5', fontSize: '1.1rem', lineHeight: 1.75, maxWidth: 640, margin: '0 auto 36px' }}>
-            MoneySorted works perfectly with Revolut personal and business statements. Upload your PDF and get instant spending analysis in seconds.
+            MoneySorted works perfectly with Revolut statements for personal and business accounts. Upload your PDF and get instant spending breakdown in seconds.
           </p>
 
           <div style={{

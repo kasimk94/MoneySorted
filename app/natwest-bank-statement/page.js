@@ -10,15 +10,15 @@ export const metadata = {
 const FAQ_ITEMS = [
   {
     q: 'How do I download my NatWest bank statement as PDF?',
-    a: 'Log into NatWest online banking or the NatWest app, go to your account, select Statements, choose your date range and download as PDF.',
+    a: 'Log into NatWest online banking, go to My Accounts, select your account, click Statements and downloads, choose your date range and download as PDF.',
+  },
+  {
+    q: 'How do I get a NatWest bank statement for a mortgage?',
+    a: 'Download your last 3-6 months of NatWest statements as PDFs from online banking, then upload them to MoneySorted to get a clean summary lenders can follow easily.',
   },
   {
     q: 'How far back can I get NatWest statements?',
-    a: 'NatWest provides up to 7 years of statements online for most current accounts.',
-  },
-  {
-    q: 'Does MoneySorted work with NatWest Business accounts?',
-    a: 'Yes, MoneySorted analyses both NatWest personal and business account statements.',
+    a: 'NatWest provides up to 7 years of statements online for current accounts.',
   },
   {
     q: 'Is my NatWest data safe?',
