@@ -53,6 +53,12 @@ export default function Footer() {
           <Link href="/revolut-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Revolut Bank Statement Help
           </Link>
+          <Link href="/first-direct-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            first direct Bank Statement Help
+          </Link>
+          <Link href="/chase-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Chase Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>
