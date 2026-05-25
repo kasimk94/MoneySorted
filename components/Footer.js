@@ -41,6 +41,12 @@ export default function Footer() {
           <Link href="/halifax-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Halifax Bank Statement Help
           </Link>
+          <Link href="/santander-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Santander Bank Statement Help
+          </Link>
+          <Link href="/nationwide-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Nationwide Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>
