@@ -83,6 +83,12 @@ export default function Footer() {
           <Link href="/santander-business-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Santander Business Bank Statement Help
           </Link>
+          <Link href="/nationwide-business-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Nationwide Business Bank Statement Help
+          </Link>
+          <Link href="/tsb-business-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            TSB Business Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>
