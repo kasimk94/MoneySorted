@@ -47,6 +47,12 @@ export default function Footer() {
           <Link href="/nationwide-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Nationwide Bank Statement Help
           </Link>
+          <Link href="/tsb-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            TSB Bank Statement Help
+          </Link>
+          <Link href="/revolut-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Revolut Bank Statement Help
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>
