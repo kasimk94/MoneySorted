@@ -2,8 +2,8 @@ import Link from 'next/link';
 import BlogNavWrapper from '@/components/BlogNavWrapper';
 
 export const metadata = {
-  title: 'Convert Bank Statements to Excel Free | MoneySorted',
-  description: 'Upload your UK bank statement PDF and instantly get a clean Excel file with spending categories and monthly totals. Works with Barclays, HSBC, Monzo, Starling and more. Free to try.',
+  title: 'Convert Bank Statement to Excel Free | Any UK Bank | Instant',
+  description: 'Upload any UK bank statement PDF and convert it to a formatted Excel file instantly. Works with all major UK banks. Free, secure, no login required.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/bank-statement-to-excel' },
 };
 

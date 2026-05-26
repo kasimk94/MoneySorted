@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Revolut Bank Statement Guide — Understanding Your Statement | MoneySorted',
-  description: 'How to download your Revolut PDF statement, what every section and transaction type means, and how to analyse your Revolut spending data in CSV or PDF format.',
+  title: 'Revolut Bank Statement Guide: Download, Read & Analyse Free',
+  description: 'How to download your Revolut statement as PDF, what every transaction entry means, and how to get a full spending breakdown free — no login needed.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/revolut-bank-statement-guide' },
 };
 

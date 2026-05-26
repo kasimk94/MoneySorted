@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Nationwide Bank Statement Guide — What Everything Means | MoneySorted',
-  description: 'Understand every code and column on your Nationwide building society statement. Guide to Nationwide transaction codes, FlexAccount statements, and how to download your statement.',
+  title: 'Nationwide Bank Statement Guide: Download, Read & Analyse',
+  description: 'How to get your Nationwide statement as a PDF, understand building society charges, and analyse your spending categories free in seconds.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/nationwide-bank-statement-guide' },
 };
 

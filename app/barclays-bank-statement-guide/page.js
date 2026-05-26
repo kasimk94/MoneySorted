@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Barclays Bank Statement Guide — What Everything Means | MoneySorted',
-  description: 'Understand every code, column, and abbreviation on your Barclays bank statement. Plain-English guide to Barclays transaction codes, direct debits, and how to read your statement.',
+  title: 'Barclays Bank Statement Guide: Download, Read & Analyse Free',
+  description: 'How to download your Barclays statement, what every code and charge means, and how to get a full spending breakdown free — no Barclays login required.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/barclays-bank-statement-guide' },
 };
 

@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'HSBC Bank Statement Guide — What Everything Means & How to Analyse It | MoneySorted',
-  description: 'Understand every code, abbreviation, and column on your HSBC bank statement — including what BP, FPI, DD, and SO mean. Plus how to download and analyse your HSBC statements.',
+  title: 'HSBC Bank Statement Guide: How to Download, Read & Analyse',
+  description: 'Everything you need to know about your HSBC bank statement. How to download it, what each section means, and how to analyse your spending for free.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/hsbc-bank-statement-guide' },
 };
 

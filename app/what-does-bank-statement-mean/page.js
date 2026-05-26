@@ -1,8 +1,8 @@
 import ContentPage from '@/components/ContentPage';
 
 export const metadata = {
-  title: 'What Does Everything on a Bank Statement Mean? (UK Guide) | MoneySorted',
-  description: 'Confused by what\'s on your bank statement? This plain-English guide explains every term, column, and code on a UK bank statement.',
+  title: 'What Does a Bank Statement Mean? UK Guide to Every Section',
+  description: 'A plain English guide to everything on your UK bank statement — what each section means, how to read transaction entries, and how to spot errors.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/what-does-bank-statement-mean' },
 };
 

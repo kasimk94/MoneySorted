@@ -1,8 +1,8 @@
 import ContentPage from '@/components/ContentPage';
 
 export const metadata = {
-  title: 'How to Find Hidden Subscriptions in Your Bank Statement | MoneySorted',
-  description: 'Discover forgotten subscriptions draining your account. Here\'s how to spot them fast using your bank statement.',
+  title: 'How to Find All Your Subscriptions in Your Bank Statement',
+  description: 'Stop paying for subscriptions you forgot about. Find every recurring charge in your bank statement automatically — free, works with any UK bank.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/how-to-find-subscriptions-in-bank-statement' },
 };
 

@@ -1,8 +1,8 @@
 import ContentPage from '@/components/ContentPage';
 
 export const metadata = {
-  title: 'How to Analyse a Bank Statement (The Easy Way) | MoneySorted',
-  description: 'Learn how to analyse your UK bank statement quickly and understand your spending. No spreadsheets needed.',
+  title: 'How to Analyse a Bank Statement: Free UK Tool + Step Guide',
+  description: 'Learn how to properly analyse your bank statement — or let MoneySorted do it automatically. Instant spending categories, trends and Excel export. Free.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/how-to-analyse-a-bank-statement' },
 };
 

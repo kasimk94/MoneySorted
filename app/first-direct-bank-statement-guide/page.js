@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'First Direct Bank Statement Guide — Understanding Your Statement | MoneySorted',
-  description: 'How to download your First Direct bank statement as a PDF, what every transaction code means, and how to analyse your First Direct account activity.',
+  title: 'First Direct Bank Statement Guide: Download, Read & Analyse',
+  description: 'How to download your First Direct statement, understand every charge and entry, and get a full free spending breakdown in under 60 seconds.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/first-direct-bank-statement-guide' },
 };
 

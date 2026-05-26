@@ -1,8 +1,8 @@
 import ContentPage from '@/components/ContentPage';
 
 export const metadata = {
-  title: 'How to Track Your Spending Using Your Bank Statement | MoneySorted',
-  description: 'The simplest way to track where your money goes each month — using just your bank statement PDF.',
+  title: 'How to Track Your Spending From a Bank Statement (UK Guide)',
+  description: 'The easiest way to track where your money goes using your bank statement. No spreadsheets needed — upload your PDF and see your spending breakdown free.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/how-to-track-spending-from-bank-statement' },
 };
 

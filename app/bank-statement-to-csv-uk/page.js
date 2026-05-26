@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Convert Your Bank Statement to CSV — Free UK Tool | MoneySorted',
-  description: 'Upload your UK bank statement PDF and instantly download a clean CSV file. Works with all major UK banks.',
+  title: 'Convert Bank Statement to CSV Free | Any UK Bank | Instant',
+  description: 'Convert any UK bank statement PDF to CSV format instantly. Works with Barclays, HSBC, Monzo, NatWest and more. Free, secure, no sign-up needed.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/bank-statement-to-csv-uk' },
 };
 

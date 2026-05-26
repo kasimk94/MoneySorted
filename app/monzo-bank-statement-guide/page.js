@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Monzo Bank Statement Guide — Understanding Your Monzo Statement | MoneySorted',
-  description: 'How to download your Monzo PDF statement, what every column means, and how to read and analyse your Monzo transaction history. Includes CSV export options.',
+  title: 'Monzo Bank Statement Guide: Download, Read & Analyse Free',
+  description: 'How to get your Monzo statement as a PDF, what every entry means, and how to analyse your Monzo spending categories instantly for free.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/monzo-bank-statement-guide' },
 };
 

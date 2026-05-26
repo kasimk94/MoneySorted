@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Starling Bank Statement Guide — Understanding Your Statement | MoneySorted',
-  description: 'How to download your Starling Bank PDF statement, what every transaction type means, and how to export and analyse your Starling spending data.',
+  title: 'Starling Bank Statement Guide: Download, Read & Analyse Free',
+  description: 'How to get your Starling Bank statement as a PDF, understand every transaction entry, and analyse your spending categories free in seconds.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/starling-bank-statement-guide' },
 };
 

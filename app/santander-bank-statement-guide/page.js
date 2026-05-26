@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Santander Bank Statement Guide — What Everything Means | MoneySorted',
-  description: 'Understand every code, column, and term on your Santander bank statement. Plain-English guide to Santander transaction codes, direct debits, and how to download your statement.',
+  title: 'Santander Bank Statement Guide: Download, Read & Analyse Free',
+  description: 'How to get your Santander bank statement as a PDF, understand every entry, and analyse your spending categories for free — no login required.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/santander-bank-statement-guide' },
 };
 

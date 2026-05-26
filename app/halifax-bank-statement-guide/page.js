@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Halifax Bank Statement Guide — Understanding Your Statement | MoneySorted',
-  description: 'A plain-English guide to reading your Halifax bank statement — transaction codes, columns, direct debits, standing orders, and how to download your Halifax statement as a PDF.',
+  title: 'Halifax Bank Statement Guide: Download, Read & Analyse Free',
+  description: 'How to download your Halifax bank statement, understand every charge and entry, and get a full spending breakdown — free, no login required.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/halifax-bank-statement-guide' },
 };
 

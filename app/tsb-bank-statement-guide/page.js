@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'TSB Bank Statement Guide — What Everything Means | MoneySorted',
-  description: 'Understand every code and column on your TSB bank statement. Plain-English guide to TSB transaction codes, direct debits, standing orders, and how to download your statement as a PDF.',
+  title: 'TSB Bank Statement Guide: How to Download, Read & Analyse',
+  description: 'How to get your TSB bank statement as a PDF, understand every entry and charge, and analyse your spending for free in under 60 seconds.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/tsb-bank-statement-guide' },
 };
 

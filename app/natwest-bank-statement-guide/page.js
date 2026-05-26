@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'NatWest Bank Statement Guide — What Everything Means | MoneySorted',
-  description: 'Understand every code and column on your NatWest bank statement. Plain-English guide to NatWest transaction codes, direct debits, standing orders, and how to download your statements.',
+  title: 'NatWest Bank Statement Guide: How to Download, Read & Analyse',
+  description: 'How to download your NatWest statement as PDF, what every entry and charge means, and how to get a free spending breakdown in under 60 seconds.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/natwest-bank-statement-guide' },
 };
 
