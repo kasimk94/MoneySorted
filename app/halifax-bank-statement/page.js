@@ -17,8 +17,8 @@ const FAQ_ITEMS = [
     a: 'Halifax provides up to 7 years of statements online for most current accounts.',
   },
   {
-    q: 'Does MoneySorted work with Halifax current accounts?',
-    a: 'Yes, MoneySorted analyses Halifax current account statements including Reward, Ultimate Reward, and standard current accounts.',
+    q: 'Does MoneySorted work with Halifax business accounts?',
+    a: 'Yes, MoneySorted analyses both Halifax personal and business account statements.',
   },
   {
     q: 'Is my Halifax data safe?',
@@ -84,7 +84,7 @@ export default function Page() {
             Halifax Bank Statement Analyser
           </h1>
           <p style={{ color: '#8A9BB5', fontSize: '1.1rem', lineHeight: 1.75, maxWidth: 640, margin: '0 auto 36px' }}>
-            MoneySorted works perfectly with Halifax current account statements. Upload your PDF and get instant spending analysis in seconds.
+            MoneySorted works perfectly with Halifax personal and business statements. Upload your PDF and get instant spending analysis in seconds.
           </p>
 
           <div style={{
