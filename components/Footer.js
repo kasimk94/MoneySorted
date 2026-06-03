@@ -89,6 +89,9 @@ export default function Footer() {
           <Link href="/tsb-business-bank-statement" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             TSB Business Bank Statement Help
           </Link>
+          <Link href="/bank-statement-codes-uk" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
+            Bank Statement Codes Explained
+          </Link>
           <Link href="/privacy" style={{ color: '#8A9BB5', fontSize: '0.78rem', textDecoration: 'none' }}>
             Privacy Policy
           </Link>
