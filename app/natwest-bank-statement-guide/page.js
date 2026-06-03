@@ -2,8 +2,8 @@ import ContentPage from '@/components/ContentPage';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'NatWest Bank Statement Guide: How to Download, Read & Analyse',
-  description: 'How to download your NatWest statement as PDF, what every entry and charge means, and how to get a free spending breakdown in under 60 seconds.',
+  title: 'How to Get a NatWest Bank Statement: Download Guide UK',
+  description: 'Step-by-step guide to downloading your NatWest bank statement as PDF. Online banking, app, and branch methods explained. Then analyse it free in seconds.',
   alternates: { canonical: 'https://www.getmoneysorted.co.uk/natwest-bank-statement-guide' },
 };
 
