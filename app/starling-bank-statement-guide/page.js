@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Starling"
       h1="Starling Bank Statement Guide — Understanding Your Statement"
       intro="Starling Bank is a digital-only bank with no branches, so all your statement access happens through the app. This guide explains how to get your Starling statement, what every section means, and how to analyse your spending effectively."
       ctaLabel="Analyse My Starling Statement Free →"

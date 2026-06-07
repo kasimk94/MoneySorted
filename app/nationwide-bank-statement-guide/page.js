@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Nationwide"
       h1="Nationwide Bank Statement Guide — What Everything Means"
       intro="Nationwide is the UK's largest building society — not a bank, though it operates exactly like one for everyday banking purposes. Its statements use the same standard UK transaction codes, but a few things work differently. This guide explains everything."
       ctaLabel="Analyse My Nationwide Statement Free →"

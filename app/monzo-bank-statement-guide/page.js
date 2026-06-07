@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Monzo"
       h1="Monzo Bank Statement Guide — Understanding Your Monzo Statement"
       intro="Monzo statements look different from traditional bank statements — they're cleaner, have fewer cryptic codes, and can be downloaded in multiple formats. This guide explains everything on your Monzo statement and how to get the most out of your transaction data."
       ctaLabel="Analyse My Monzo Statement Free →"

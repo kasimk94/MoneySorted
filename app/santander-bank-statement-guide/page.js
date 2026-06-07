@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Santander"
       h1="Santander Bank Statement Guide — What Everything Means"
       intro="Santander bank statements use a familiar set of UK banking codes, but the layout and terminology can still catch people out. This guide explains every transaction type, what each column means, and how to read your Santander statement from top to bottom."
       ctaLabel="Analyse My Santander Statement Free →"

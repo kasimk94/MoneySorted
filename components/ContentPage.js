@@ -1,7 +1,16 @@
+import React from 'react';
 import Link from 'next/link';
 import BlogNavWrapper from '@/components/BlogNavWrapper';
+import MidCta from '@/components/MidCta';
 
-export default function ContentPage({ label, h1, intro, children, ctaLabel = 'Try MoneySorted Free →' }) {
+export default function ContentPage({ label, h1, intro, children, ctaLabel = 'Try MoneySorted Free →', bank }) {
+  let articleContent = children;
+  if (bank) {
+    const arr = React.Children.toArray(children);
+    const mid = Math.ceil(arr.length / 2);
+    articleContent = <>{arr.slice(0, mid)}<MidCta bank={bank} />{arr.slice(mid)}</>;
+  }
+
   return (
     <div style={{ background: '#080C14', minHeight: '100vh', color: '#F5F0E8' }}>
       <style>{`
@@ -89,7 +98,7 @@ export default function ContentPage({ label, h1, intro, children, ctaLabel = 'Tr
 
         {/* Article body */}
         <article className="cp-article">
-          {children}
+          {articleContent}
         </article>
 
         {/* CTA box */}

@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Lloyds"
       h1="Lloyds Bank Statement Guide — Understanding Your Statement"
       intro="Lloyds bank statements are packed with codes and abbreviations that never come with an explanation. This guide covers everything — from what each column means to the full list of transaction codes — so you can read your Lloyds statement with confidence."
       ctaLabel="Analyse My Lloyds Statement Free →"

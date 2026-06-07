@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="HSBC"
       h1="HSBC Bank Statement Guide — What Everything Means & How to Analyse It"
       intro="Your HSBC bank statement contains abbreviations, transaction codes, and columns that aren't explained anywhere in the app or online banking. This guide explains every term you'll see — including the ones that consistently confuse people."
     >

@@ -25,6 +25,22 @@ export async function generateMetadata({ params }) {
   };
 }
 
+function splitContentAtSecondH2(html) {
+  let count = 0;
+  let splitIndex = -1;
+  const regex = /<\/h2>/g;
+  let match;
+  while ((match = regex.exec(html)) !== null) {
+    count++;
+    if (count === 2) {
+      splitIndex = match.index + match[0].length;
+      break;
+    }
+  }
+  if (splitIndex === -1) return [html, null];
+  return [html.slice(0, splitIndex), html.slice(splitIndex)];
+}
+
 function formatDate(dateStr) {
   return new Date(dateStr).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
@@ -33,6 +49,8 @@ export default async function BlogPostPage({ params }) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
+
+  const [firstHalf, secondHalf] = splitContentAtSecondH2(post.content);
 
   return (
     <div style={{ background: '#080C14', minHeight: '100vh', color: '#F5F0E8' }}>
@@ -129,10 +147,17 @@ export default async function BlogPostPage({ params }) {
         <div style={{ height: 1, background: 'linear-gradient(90deg, rgba(201,168,76,0.3), transparent)', marginBottom: 48 }} />
 
         {/* Content */}
-        <article
-          className="blog-content"
-          dangerouslySetInnerHTML={{ __html: post.content }}
-        />
+        <article className="blog-content" dangerouslySetInnerHTML={{ __html: firstHalf }} />
+        {secondHalf !== null && (
+          <>
+            <div style={{ margin: '2.5em 0', padding: '28px', background: 'rgba(201,168,76,0.05)', border: '1px solid rgba(201,168,76,0.28)', borderRadius: 14, textAlign: 'center' }}>
+              <p style={{ color: '#F5F0E8', fontWeight: 800, fontSize: '1.05rem', margin: '0 0 8px', letterSpacing: '-0.01em' }}>Want to skip the manual work?</p>
+              <p style={{ color: '#8A9BB5', fontSize: '0.9rem', margin: '0 0 20px', lineHeight: 1.65 }}>Upload your bank statement to MoneySorted and get an instant breakdown of every transaction, spending category and monthly trend — free, no login needed.</p>
+              <Link href="/" style={{ display: 'inline-block', background: 'linear-gradient(135deg, #C9A84C 0%, #E8C97A 50%, #C9A84C 100%)', color: '#080C14', fontWeight: 700, fontSize: '0.9rem', padding: '11px 28px', borderRadius: 50, textDecoration: 'none', boxShadow: '0 4px 16px rgba(201,168,76,0.25)' }}>Try MoneySorted Free →</Link>
+            </div>
+            <article className="blog-content" dangerouslySetInnerHTML={{ __html: secondHalf }} />
+          </>
+        )}
 
         {/* CTA */}
         <div style={{

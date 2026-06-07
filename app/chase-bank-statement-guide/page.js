@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Chase"
       h1="Chase UK Bank Statement Guide — What Everything Means"
       intro="Chase UK is JPMorgan Chase's digital bank, launched in the UK in 2021. It's app-only with no branches, and its statements look different from traditional high street bank statements. This guide explains how to get your Chase UK statement and what every part of it means."
       ctaLabel="Analyse My Chase Statement Free →"

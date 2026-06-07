@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Halifax"
       h1="Halifax Bank Statement Guide — Understanding Your Statement"
       intro="Halifax is one of the UK's largest banks, and its statements follow the standard UK banking format — but the codes and columns still trip people up. This guide explains every term on a Halifax statement in plain English."
       ctaLabel="Analyse My Halifax Statement Free →"

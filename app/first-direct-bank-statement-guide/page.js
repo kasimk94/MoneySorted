@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="first direct"
       h1="First Direct Bank Statement Guide — Understanding Your Statement"
       intro="First Direct is HSBC's telephone and digital bank — no branches, but a full current account with the same underlying banking infrastructure as HSBC. Its statements use the same codes as HSBC but have a slightly different layout. This guide explains everything."
       ctaLabel="Analyse My First Direct Statement Free →"

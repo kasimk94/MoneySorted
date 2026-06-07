@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="TSB"
       h1="TSB Bank Statement Guide — What Everything Means"
       intro="TSB bank statements use the same standard UK banking codes as most high street banks, but with a few quirks that catch people out. This guide explains every transaction code, what each column means, and how to download and read your TSB statement."
       ctaLabel="Analyse My TSB Statement Free →"

@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Barclays"
       h1="Barclays Bank Statement Guide — What Everything Means"
       intro="Barclays bank statements use a set of abbreviations and transaction codes that aren't explained in the app or on the statement itself. This guide walks through every code, column, and term — so you always know exactly what you're looking at."
       ctaLabel="Analyse My Barclays Statement Free →"

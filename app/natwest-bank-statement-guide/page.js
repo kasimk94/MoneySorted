@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="NatWest"
       h1="NatWest Bank Statement Guide — What Everything Means"
       intro="NatWest bank statements use a set of codes and abbreviations that most customers have never had explained. This guide covers every transaction code, what each column means, and how to make sense of your statement from top to bottom."
       ctaLabel="Analyse My NatWest Statement Free →"

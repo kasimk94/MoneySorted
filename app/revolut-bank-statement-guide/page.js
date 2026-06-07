@@ -11,6 +11,7 @@ export default function Page() {
   return (
     <ContentPage
       label="Guide"
+      bank="Revolut"
       h1="Revolut Bank Statement Guide — Understanding Your Statement"
       intro="Revolut statements look and work differently from traditional UK bank statements — they cover multiple currencies, include more transaction detail, and are formatted for a global user base. This guide explains everything you'll find on a Revolut statement and how to use the data effectively."
       ctaLabel="Analyse My Revolut Statement Free →"
