@@ -489,12 +489,12 @@ export default function Home() {
             lineHeight: 1.15, color: "#F5F0E8",
             marginBottom: 12, letterSpacing: "-0.03em",
           }}>
-            UK Bank Statement Analyser<br />
+            Free UK Bank Statement<br />
             <span style={{
               color: "#C9A84C",
               filter: "drop-shadow(0 0 40px rgba(201,168,76,0.4))",
             }}>
-              That Actually Makes Sense
+              Analyser
             </span>
           </h1>
 
@@ -634,6 +634,20 @@ export default function Home() {
           </div>
           <p className="scroll-animate" style={{ marginTop: 48, fontWeight: 700, fontSize: "1.1rem", color: "#C9A84C", transitionDelay: "0.3s" }}>
             There&apos;s a smarter way. →
+          </p>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════
+          SEO SECTION
+      ══════════════════════════════════════════════════════════════ */}
+      <section style={{ background: "#080C14", padding: "60px 24px" }}>
+        <div style={{ maxWidth: 760, margin: "0 auto", textAlign: "center" }}>
+          <h2 style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 800, color: "#F5F0E8", letterSpacing: "-0.02em", marginBottom: 20 }}>
+            The UK&apos;s Easiest Bank Statement Analyser
+          </h2>
+          <p style={{ color: "#8A9BB5", fontSize: "1rem", lineHeight: 1.75, maxWidth: 660, margin: "0 auto" }}>
+            MoneySorted is a free UK bank statement analyser that works with every major bank. Upload your PDF statement and instantly see your spending categories, transaction history, monthly trends and get a full Excel export. No bank login, no account needed, results in seconds.
           </p>
         </div>
       </section>

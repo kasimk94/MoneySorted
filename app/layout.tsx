@@ -22,9 +22,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Free Bank Statement Analyser UK | Instant PDF to Excel",
+  title: "Free Bank Statement Analyser UK | Upload PDF, Get Instant Results",
   description:
-    "Upload any UK bank statement PDF and get instant spending analysis, transaction breakdown and Excel export. Works with HSBC, Barclays, Monzo, Starling & more. Free, no login needed.",
+    "The free UK bank statement analyser. Upload any PDF bank statement and instantly see spending categories, transaction breakdown and Excel export. Works with HSBC, Barclays, Monzo, NatWest & more.",
   keywords: [
     "bank statement converter",
     "bank statement analyser",
